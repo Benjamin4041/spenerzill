@@ -12,7 +12,10 @@ export default function Homepage() {
   let aboutme = () => {
     navigate("/about", "_self");
   };
-  //refs
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   // test space
   const texts = ["Product", "Motion", "Brand"];
@@ -142,8 +145,8 @@ export default function Homepage() {
           </div>
 
           <div className="w-full">
-            <span className="flex skillsCon" style={{}}>
-              <Link to={"/products/#"}>
+            <span className="flex skillsCon" >
+              <Link to={"/products"}>
                 <Skills
                   skillName={"product design"}
                   addStyle={{ columnGap: "10px" }}

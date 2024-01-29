@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from '../../components/footer/footer'
 import Navbar from '../../components/navbar/navbar'
 import Works from '../../components/works/works'
 import './productpage.css'
 import { motion } from 'framer-motion'
 export default function Productpage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <motion.div className='productPageMainCon' initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>
         <section className='productPageMainCon_section1'>

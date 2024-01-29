@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from '../../components/footer/footer'
 import Navbar from '../../components/navbar/navbar'
 import Works from '../../components/works/works'
 import './motionpage.css'
 import { motion } from 'framer-motion'
 export default function Motionpage() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
   return (
     <motion.div className='motionpage' initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>
         <section className='motionpage_section1'>

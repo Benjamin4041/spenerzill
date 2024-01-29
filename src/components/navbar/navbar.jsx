@@ -1,4 +1,4 @@
-import React, { useContext, useEffect} from "react";
+import React, { useContext, useEffect, useState} from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./navbar.css";
 import { NavBool } from "../contexts/navbarcontext";
@@ -6,19 +6,23 @@ export default function Navbar() {
   // const [isActive, setIsActive] = useState(false);
   const navigate = useNavigate();
 
-  const { isActive, setIsActive } = useContext(NavBool);
+  const { isActive, setIsActive } = useContext(NavBool);  
+  const [shouldNavigate, setShouldNavigate] = useState(false);
 
+  // Use useEffect to handle the delayed navigation
   useEffect(() => {
-    const timer = setTimeout(() => {
-      navigate(isActive ? "/menu" : "/homepage");
-    }, 0.9);
+      if (shouldNavigate) {
+          const timer = setTimeout(() => {
+              navigate(isActive ? "/menu" : -1);
+          }, 900); // Adjust time as needed for your animation
 
-    // Cleanup function to clear the timeout
-    return () => clearTimeout(timer);
-  }, [isActive, navigate]);
+          return () => clearTimeout(timer);
+      }
+  }, [shouldNavigate, isActive, navigate]);
 
   const toggleClass = () => {
-    setIsActive(!isActive); // Toggle the active state
+      setIsActive(!isActive); // Toggle the active state
+      setShouldNavigate(true); // Trigger the navigation after toggling
   };
   return !isActive ? (
     <div className="bg-transparent navbar w-full">

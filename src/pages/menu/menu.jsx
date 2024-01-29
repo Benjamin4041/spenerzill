@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import "./menu.css";
 import { motion } from "framer-motion";
 import Navbar from "../../components/navbar/navbar";
+import { NavBool } from "../../components/contexts/navbarcontext";
 // import Spline from "@splinetool/react-spline";
 function Menu() {
+
+  const { isActive, setIsActive } = useContext(NavBool);
   const emailTrigger = () => {
     window.location.href =
       "mailto:user@example.com?subject=Subject&body=message%20goes%20here";
@@ -44,7 +47,7 @@ function Menu() {
             </nav> */}
         <Navbar />
         <div className="menusCon flex">
-          <Link to={"/about"}>
+          <Link to={"/about"} onClick={()=>setIsActive(false)}>
             <div className="menus">
               <div className="menus_imgCon">
                 <img

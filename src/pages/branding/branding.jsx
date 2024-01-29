@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from '../../components/navbar/navbar'
 import './branding.css'
 import { motion } from 'framer-motion'
 import Footer from '../../components/footer/footer'
 export default function Branding() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
   return (
     <motion.div  initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}} className='brandingMainCon'>
         <section className='brandingMainCon_section1'>
