@@ -14,7 +14,7 @@ export default function Navbar() {
       if (shouldNavigate) {
           const timer = setTimeout(() => {
               navigate(isActive ? "/menu" : -1);
-          }, 900); // Adjust time as needed for your animation
+          }, 1.5); // Adjust time as needed for your animation
 
           return () => clearTimeout(timer);
       }
