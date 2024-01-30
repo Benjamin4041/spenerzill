@@ -4,7 +4,288 @@ padding:0;
 }
 /* modile */
 @media screen and (max-width:767px){
+ .brandingMainCon{
+    background:url(./../../../public/images/bgfilter.svg),#1E1E1E;
+}
+.brandingMainCon_section1{
+    width:100vw;
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+}
+ .brandingMainCon_section1-InnerCon{
+    width:100vw;
+    height:fit-content;
+    position: relative;
+    align-self: center;
+    margin-top:50px;
+}
+.v877_894 {
+    height:260.402px;
+    width:100vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v877_895 {
+    width: 100vw;
+    height: 242px;
+    background: rgba(25,25,25,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v877_896 {
+    width:94.51px;
+    height:102.625px;
+    left:25.125px;
+    top:153.505px;
+    background: #FDC32C;
+    transform: matrix(0, 1, 1, 0, 0, 0);
+    position: absolute;
+    border-radius: 50%;
+  }
+   .v877_897 {
+    width:150.03px;
+    height:162.91px;
+    left:149.98px;
+    top: -37.5px;
+    background: #1CFF5C;
+    transform: matrix(0, 1, 1, 0, 0, 0);
+    position: absolute;
+    border-radius: 50%;
+  }
+  .v877_898 {
+    width:150.03px;
+    height:162.91px;
+    left:317.915px;
+    top:29.915px;
+    background: #FF2020;
+    transform: matrix(0, 1, 1, 0, 0, 0);
+    position: absolute;
+    border-radius: 50%;
+  }
+  .v877_899 {
+    width:100vw;
+    height: 242px;
+    background: rgba(0,0,0,0.5);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    backdrop-filter: blur(125px);
+  }
 
+  .section1_InnerCon-BrandandTextCon{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .InnerCon_BrandandTextCon-p1{
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50.77px;
+    line-height:119.5px;
+    letter-spacing: -0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    transform: translateX(75px);
+  }
+  .InnerCon_BrandandTextCon-p2{
+    width:153px;
+    height: 52px;
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 160%;
+    letter-spacing: -0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: start;
+    transform: translateX(108.5px);
+  }
+.playIcon{
+    scale: .7;
+    position: absolute;
+    left:149px;
+    top: 114.5px;
+  }
+  .section1_InnerCon-behance{
+    scale:.4;
+    position: absolute;
+    top:105.5px;
+    right:0px;
+  }
+  .brandingMainCon_section2{
+    background-image:url(./../../../public/images/bgfilter.svg);
+    position: relative;
+  }
+  .brandingMainCon_section2-innerCon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    column-gap:42px;
+  }
+  .section2_innerCon-p1{
+    width: 237px;
+    height:119.5px;
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-size:50.8px;
+    line-height:119.5px;
+    letter-spacing: -0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+   .section2_innerCon-hr{
+    width: 60px;
+    border: none;
+    height: 5px;
+    background-color: #FFFFFF;
+    margin:0px 11px;
+   
+  }
+  .section2_innerCon-p2{
+    width:225px;
+    height: 64px;
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 160%;
+    text-align: right;
+    letter-spacing: -0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+ .brandingMainCon_section2-innerCon2{
+  position: relative;
+    display: flex;
+    column-gap:20px;
+    margin-left:92px;
+    margin-top:50.46px;
+    margin-bottom:100px;
+  }
+  .section2_innerCon2-downArrow{
+    scale:.9;
+  }
+  .section2_innerCon2-work{
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-size:32px;
+    line-height:41.5px;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .brandingMainCon_section2-innerCon3{
+    height:fit-content;
+    padding-top: 6em;
+    transform: translateY(55%);
+    padding-left: 3rem;
+  }
+   .textandTextFilte_Text{
+    height: 126px;
+    width:fit-content;
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-size:34px;
+    text-align: right;
+    letter-spacing: -0.05em;
+    text-transform: capitalize;
+    color: #666666;
+    text-align: start;
+  }
+  .textandTextFilter{
+    position: relative;
+    bottom: 350px;
+  }
+   .textandTextFilte_textFilter{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-image:url(./../../../public/images/bgfilter.svg);
+  }
+  .textandTextFilte_Text-innerText{
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 18px;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: #666666;
+    column-gap:10px;
+  }
+/* fine */
+   .viewcaseCon_rightangle{
+    width: 70%;
+  }
+  .viewcaseCon{
+    display: none;
+  } 
+/*
+.brandingMainCon_section2-clubhouse{
+    transform:translateX(46px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:fit-content;
+    height: fit-content;
+    position: relative;
+    cursor: pointer;
+    margin-bottom:50px;
+  }
+
+  .bigcircle{
+    height: 104px;
+    width: 104px;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-300px);
+    position: relative;
+    left:194px;
+  }
+  .smallcircle{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .smallcircle_p{
+    width:100px;
+    font-family: 'MoglanDemo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    text-transform: uppercase;    
+    color: #FFFFFF;  
+    transform: rotate(-5deg);
+    position: absolute;
+    text-align: center;
+  } */
 }
 /* tablet */
 @media screen and (min-width:768px) and (max-width:1023px){
@@ -330,7 +611,7 @@ padding:0;
         background:url(./../../../public/images/bgfilter.svg),#1E1E1E;
     }
     .brandingMainCon_section1{
-        width:100vw;
+        width:98vw;
         height:100vh;
         padding-bottom: 174.2px;
     }

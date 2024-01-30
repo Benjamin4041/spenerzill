@@ -6,7 +6,6 @@ import Navbar from "../../components/navbar/navbar";
 import { NavBool } from "../../components/contexts/navbarcontext";
 // import Spline from "@splinetool/react-spline";
 function Menu() {
-
   const { setIsActive } = useContext(NavBool);
   const emailTrigger = () => {
     window.location.href =
@@ -47,7 +46,7 @@ function Menu() {
             </nav> */}
         <Navbar />
         <div className="menusCon flex">
-          <Link to={"/about"} onClick={()=>setIsActive(false)}>
+          <Link to={"/about"} onClick={() => setIsActive(false)}>
             <div className="menus">
               <div className="menus_imgCon">
                 <img
@@ -59,7 +58,7 @@ function Menu() {
               <p className="menus_p menus_p1">About Me</p>
             </div>
           </Link>
-          <Link to={""}>
+          <Link to={""} onClick={() => setIsActive(false)}>
             <div className="menus">
               <div className="menus_imgCon">
                 <img
@@ -71,7 +70,7 @@ function Menu() {
               <p className="menus_p menus_p1">showreel</p>
             </div>
           </Link>
-          <Link to={"/branding"}>
+          <Link to={"/branding"} onClick={() => setIsActive(false)}>
             <div className="menus">
               <div className="menus_imgCon">
                 <img
@@ -83,7 +82,7 @@ function Menu() {
               <p className="menus_p menus_p1">Branding</p>
             </div>
           </Link>
-          <Link to={"/products"}>
+          <Link to={"/products"} onClick={() => setIsActive(false)}>
             <div className="menus">
               <div className="menus_imgCon hidden">
                 <img
@@ -95,7 +94,7 @@ function Menu() {
               <p className="menus_p menus_p2">product design</p>
             </div>
           </Link>
-          <Link to={"/motiondesign"}>
+          <Link to={"/motiondesign"} onClick={() => setIsActive(false)}>
             <div className="menus">
               <div className="menus_imgCon">
                 <img

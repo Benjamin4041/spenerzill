@@ -58,7 +58,7 @@ export default function Branding() {
             <div className='brandingMainCon_section2-innerCon3'>
                 <span className='brandingMainCon_section2-clubhouse'>
                     <div className='viewcaseCon'>
-                        <img src="/images/Rectangle.svg" alt="" />
+                        <img src="/images/Rectangle.svg" alt="" className="viewcaseCon_rightangle" />
                         <div className='bigcircle'>
                             <div className='smallcircle'>
                                  <p className='smallcircle_p'>View case</p>
@@ -79,7 +79,7 @@ export default function Branding() {
                 </span>
                 <span className='brandingMainCon_section2-clubhouse'>
                     <div className='viewcaseCon'>
-                        <img src="/images/Rectangle.svg" alt="" />
+                        <img src="/images/Rectangle.svg" alt="" className="viewcaseCon_rightangle" />
                         <div className='bigcircle'>
                             <div className='smallcircle'>
                                  <p className='smallcircle_p'>View case</p>
@@ -100,7 +100,7 @@ export default function Branding() {
                 </span>
                 <span className='brandingMainCon_section2-clubhouse'>
                     <div className='viewcaseCon'>
-                        <img src="/images/Rectangle.svg" alt="" />
+                        <img src="/images/Rectangle.svg" alt="" className="viewcaseCon_rightangle" />
                         <div className='bigcircle'>
                             <div className='smallcircle'>
                                  <p className='smallcircle_p'>View case</p>

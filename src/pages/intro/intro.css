@@ -4,7 +4,41 @@ padding:0;
 }
 /* modile */
 @media screen and (max-width:767px){
-
+    .introMainCon{
+        width:100vw;
+        height:100vh;
+        background: #000;
+        /* background:url(./../../../public/images/bgfilter.svg),#1E1E1E; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .introMainCon_InnerVideoCon{
+        width:100vw;
+        height:100vh;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* transform: translateY(28%); */
+    }
+    .introMainCon_P{
+        position: absolute;
+        font-family: 'Varela';
+        font-style: normal;
+        font-weight: 400;
+        font-size:3rem;
+        line-height: 213px;
+        letter-spacing: -0.1em;
+        text-transform: uppercase;
+        color:white;
+        opacity: .8;
+        /* top:220px; */
+        /* mix-blend-mode: screen;
+        background:url(./../../../public/images/bgfilter.svg),#1E1E1E;; */
+ 
+    }
 }
 /* tablet */
 @media screen and (min-width:768px) and (max-width:1023px){
