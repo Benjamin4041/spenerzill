@@ -21,10 +21,10 @@ export default function Works({brandname,worktype,period,circle1,circle2,circle3
                         
                         </div>
                     </div> 
-                        <video className='workvid'  width="886" height="484" src={clip} autoPlay muted loop></video>
+                        <video className='workvid'   src={clip} autoPlay muted loop></video>
                     </div> 
                     <span className='brandname_con'>
-                        <p className={'brandname_con-p1 '} style={brandnamestyle}>
+                        <p className='brandname_con-p1' style={brandnamestyle}>
                             {brandname}
                         </p>
                         <p className={'brandname_con-p2 '+brandclass}style={worktypestyle}>

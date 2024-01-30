@@ -11,7 +11,7 @@ export default function Footer() {
         <span className="footer_innerCon-innerCon">
           <hr className="innerCon_innerCon-hr" />
           <p className="innerCon_innerCon-p">
-            Reach me at
+          <hr className="innerCon_innerCon-hr2" />   Reach me at
             <br />
             {/* <Link className='innerCon_innerCon-email' to={'bryananoruo@gmail.com'}> */}
             bryananoruo@gmail.com
